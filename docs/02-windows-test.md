@@ -30,10 +30,10 @@ py --version
 ## Шаг 2. Скачать проект
 
 1. Откройте в браузере (войдите в GitHub, если попросит):
-   https://github.com/duanfuence/Avito-bot/archive/refs/heads/stage1-feasibility.zip
-2. Скачается файл `Avito-bot-stage1-feasibility.zip`.
+   https://github.com/duanfuence/Avito-bot/archive/refs/heads/main.zip
+2. Скачается файл `Avito-bot-main.zip`.
 3. Откройте папку «Загрузки», нажмите на архив **правой** кнопкой → **Извлечь все…** → **Извлечь**.
-4. Откроется папка `Avito-bot-stage1-feasibility`, внутри неё ещё одна с тем же именем. Зайдите в неё, затем в папку **`probe`**.
+4. Откроется папка `Avito-bot-main`, внутри неё ещё одна с тем же именем. Зайдите в неё, затем в папку **`probe`**.
 
 В папке `probe` должны быть: `avito_probe.py`, `requirements.txt`, `start_windows.bat`, папка `tests`.
 
@@ -66,7 +66,7 @@ py --version
 После успешного запуска папка с результатами **откроется сама**:
 
 ```
-...\Avito-bot-stage1-feasibility\probe\probe_output\
+...\Avito-bot-main\probe\probe_output\
 ```
 
 | Файл | Что это | Чем открыть |
