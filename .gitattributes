@@ -1,0 +1,2 @@
+# The Windows launcher must keep CRLF line endings, otherwise cmd.exe misreads it.
+*.bat -text

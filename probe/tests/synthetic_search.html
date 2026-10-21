@@ -1,10 +1,13 @@
-<!-- СИНТЕТИЧЕСКИЙ пример разметки для проверки логики парсера. НЕ реальная страница Авито. -->
-<html><body>
-<div data-marker="item" data-item-id="111"><a data-marker="item-title" href="/moskva/telefony/iphone_15_128_111" title="iPhone 15, 128 ГБ">iPhone 15, 128 ГБ</a>
+<!-- SYNTHETIC markup for testing the parser logic. NOT a real Avito page. -->
+<html><head><meta name="csrf-token" content="SECRET_CSRF_123"><title>Поиск</title>
+<script>window.__initialData__ = {"user":{"email":"me@example.com","token":"SECRET_TOKEN_456"}, "captcha": false};</script></head>
+<body><header><a data-marker="header/username">Иван Петров</a></header>
+<form><input type="hidden" name="session" value="SECRET_SESSION_789"></form>
+<div data-marker="item" data-item-id="81234567890"><a data-marker="item-title" href="/moskva/telefony/iphone_15_128_111?context=H4sIAAAAAAAA_very_long_tracking_value_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" title="iPhone 15, 128 ГБ">iPhone 15, 128 ГБ</a>
 <meta itemprop="price" content="32000"><div data-marker="item-address">Москва, м. Сокол</div><div data-marker="item-date">2 часа назад</div>
-<meta itemprop="description" content="Аккумулятор 89%, без ремонта"><img src="https://img.example/1.jpg"></div>
+<meta itemprop="description" content="Аккумулятор 89%, без ремонта. Звоните +7 (999) 123-45-67"><img src="https://img.example/1.jpg"></div>
 <div data-marker="item" data-item-id="112"><a data-marker="item-title" href="/moskva/telefony/iphone_15_128_112">iPhone 15 128GB</a>
-<span data-marker="item-price">40 000 ₽</span><div data-marker="item-date">вчера</div></div>
+<span data-marker="item-price">40 000 ₽</span><div data-marker="item-date">вчера</div><p>пишите 8 916 000 11 22</p></div>
 <div data-marker="item" data-item-id="112"><a data-marker="item-title" href="/dup">dup</a></div>
 <div data-marker="item" data-item-id="113"><a data-marker="item-title" href="/x113">iPhone 15</a><meta itemprop="price" content="41000"></div>
 <div data-marker="item" data-item-id="114"><a data-marker="item-title" href="/x114">iPhone 15</a><meta itemprop="price" content="39000"></div>
