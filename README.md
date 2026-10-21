@@ -1,7 +1,7 @@
 # Avito Market Scanner
 
-A system for monitoring Avito listings, analysing market prices and alerting about good deals in Telegram.
+Система мониторинга объявлений Авито, анализа рыночных цен и уведомлений о выгодных предложениях в Telegram.
 
-Current stage: **1 — feasibility assessment.** See [docs/01-feasibility.md](docs/01-feasibility.md).
+Текущий этап: **1 — проверка реализуемости.** См. [docs/01-feasibility.md](docs/01-feasibility.md).
 
-- `probe/` — a probe script that checks which Avito data is actually available from your computer.
+- `probe/` — пробный скрипт: проверяет, какие данные Авито реально доступны с вашего компьютера.
